@@ -7,3 +7,4 @@ ConfigModel {
         icon: "plasma"
         source: "configGeneral.qml"
     }
+}

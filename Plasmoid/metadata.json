@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Jacksaur"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "Plasmoid clone of Rainmeter Urban Links Launcher skin by ApexXx-SenSei",
+        "Icon": "start-here-kde",
+        "Id": "com.github.jacksaur.suburbanlauncher",
+        "Name": "Suburban Launcher",
+        "Version": "1.0",
+        "Website": "github.com/jacksaur/suburbanlauncher"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

@@ -4,35 +4,87 @@ import QtQuick.Layouts 1.0 as QtLayouts
 import org.kde.kirigami 2.5 as Kirigami
 
 Kirigami.FormLayout {
-
     anchors.left: parent.left
     anchors.right: parent.right
-
-    QtLayouts.Layout.fillWidth: true
-
     Item {
         Kirigami.FormData.isSection: true
     }
 
-    QtLayouts.RowLayout {
-        QtLayouts.Layout.fillWidth: true
+    property alias cfg_app1: entry1.text
+    property alias cfg_app2: entry2.text
+    property alias cfg_app3: entry3.text
+    property alias cfg_app4: entry4.text
+    property alias cfg_app5: entry5.text
+    property alias cfg_app6: entry6.text
+    property alias cfg_app7: entry7.text
 
-        Kirigami.FormData.label: i18n("Line 1:")
+    property alias cfg_com1: command1.text
+    property alias cfg_com2: command2.text
+    property alias cfg_com3: command3.text
+    property alias cfg_com4: command4.text
+    property alias cfg_com5: command5.text
+    property alias cfg_com6: command6.text
+    property alias cfg_com7: command7.text
 
-        QtControls.TextField{
-            id: labelText
-        }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 1:"
+        id: entry1
     }
 
-    QtLayouts.RowLayout {
-        QtLayouts.Layout.fillWidth: true
-
-        Kirigami.FormData.label: i18n("Command 1:")
-
-        QtControls.TextField{
-            id: command
-        }
-
+     QtControls.TextField{
+        Kirigami.FormData.label: "Command 1:"
+        id: command1
     }
 
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 2:"
+        id: entry2
+    }
+
+    QtControls.TextField{
+        Kirigami.FormData.label: "Command 2:"
+        id: command2
+    }
+
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 3:"
+        id: entry3
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Command 3:"
+        id: command3
+    }
+
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 4:"
+        id: entry4
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Command 4:"
+        id: command4
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 5:"
+        id: entry5
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Command 5:"
+        id: command5
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 6:"
+        id: entry6
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Command 6:"
+        id: command6
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Entry 7:"
+        id: entry7
+    }
+    QtControls.TextField{
+        Kirigami.FormData.label: "Command 7:"
+        id: command7
+    }
 }
