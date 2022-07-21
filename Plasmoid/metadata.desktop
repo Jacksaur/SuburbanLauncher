@@ -1,0 +1,12 @@
+ [Desktop Entry]
+ Name=Suburban Launcher
+ Comment=Plasmoid clone of Rainmeter Urban Links Launcher skin by ApexXx-SenSei
+ X-KDE-ServiceTypes=Plasma/Applet
+ X-KDE-PluginInfo-Name=org.kde.SuburbanLauncher
+ X-KDE-PluginInfo-Author=Jacksaur
+ X-KDE-PluginInfo-Website=github.com/jacksaur/suburbanlauncher
+ X-Plasma-API=declarativeappletscript
+ X-Plasma-MainScript=ui.main.qml
+
+ Type=Service
+ X-KDE-PluginInfo-Category=Application Launchers
