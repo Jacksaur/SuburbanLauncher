@@ -39,7 +39,7 @@ Item {       //Seems everything must be within here
                 color: "white"
             }
             Text {     //Text object for first button
-                text: "Terminal"  //Button name here
+                text: "App1"  //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -48,14 +48,14 @@ Item {       //Seems everything must be within here
 
                 MouseArea {         //MouseArea to allow interactions with mouse
                     anchors.fill: parent
-                    onClicked: executable.exec("konsole") //Command from the copied PlasmaCore.DataSource code above. This command will be executed as if it was ran through Terminal
+                    onClicked: executable.exec("Com1") //Command from the copied PlasmaCore.DataSource code above. This command will be executed as if it was ran through Terminal
                     hoverEnabled: true  //Needs to be on, or the MouseArea will ignore the mouse entirely if click isn't held
                     onEntered: {parent.font.bold = true} //Turns text bold on MouseOver, for aesthetics
                     onExited: {parent.font.bold = false}
                 }
             }
             Text {              //All text objects from here follow the same format as above
-                text: "Firefox" //Button name here
+                text: "App2" //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -64,14 +64,14 @@ Item {       //Seems everything must be within here
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: executable.exec("firefox") //Terminal command here
+                    onClicked: executable.exec("Com2") //Terminal command here
                     hoverEnabled: true
                     onEntered: {parent.font.bold = true}
                     onExited: {parent.font.bold = false}
                 }
             }
             Text {
-                text: "Steam" //Button name here
+                text: "App3" //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -80,14 +80,14 @@ Item {       //Seems everything must be within here
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: executable.exec("/usr/games/steam") //Terminal command here
+                    onClicked: executable.exec("Com3") //Terminal command here
                     hoverEnabled: true
                     onEntered: {parent.font.bold = true}
                     onExited: {parent.font.bold = false}
                 }
             }
             Text {
-                text: "VPN" //Button name here
+                text: "App4" //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -96,14 +96,14 @@ Item {       //Seems everything must be within here
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: executable.exec("")
+                    onClicked: executable.exec("Com4")
                     hoverEnabled: true
                     onEntered: {parent.font.bold = true}
                     onExited: {parent.font.bold = false}
                 }
             }
             Text {
-                text: "Plex" //Button name here
+                text: "App5" //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -112,14 +112,14 @@ Item {       //Seems everything must be within here
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: executable.exec("~/tools/Plex.AppImage %U")  //Terminal command here
+                    onClicked: executable.exec("Com5")  //Terminal command here
                     hoverEnabled: true
                     onEntered: {parent.font.bold = true}
                     onExited: {parent.font.bold = false}
                 }
             }
             Text {
-                text: "Server" //Button name here
+                text: "App6" //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -128,14 +128,14 @@ Item {       //Seems everything must be within here
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: executable.exec("/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=anydesk com.anydesk.Anydesk")  //Terminal command here
+                    onClicked: executable.exec("Com6")  //Terminal command here
                     hoverEnabled: true
                     onEntered: {parent.font.bold = true}
                     onExited: {parent.font.bold = false}
                 }
             }
             Text {
-                text: "Shutdown" //Button name here
+                text: "App7" //Button name here
                 color: "white"
                 font.pointSize: 21
                 font.family:"MontSerrat"
@@ -144,7 +144,7 @@ Item {       //Seems everything must be within here
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: executable.exec("systemctl shutdown") //Terminal command here
+                    onClicked: executable.exec("Com7") //Terminal command here
                     hoverEnabled: true
                     onEntered: {parent.font.bold = true}
                     onExited: {parent.font.bold = false}
