@@ -6,45 +6,43 @@
     <kcfgfile name=""/>
     <group name="General">
         <entry name="app1" type="String">
-            <default>Application 1</default>
+            <default></default>
         </entry>
         <entry name="com1" type="String">
             <default></default>
         </entry>
         <entry name="app2" type="String">
-            <default>Application 2</default>
+            <default></default>
         </entry>
         <entry name="com2" type="String">
             <default></default>
         </entry>
         <entry name="app3" type="String">
-            <default>Application 3</default>
+            <default></default>
         </entry>
         <entry name="com3" type="String">
             <default></default>
         </entry>
         <entry name="app4" type="String">
-            <default>Application 4</default>
+            <default></default>
         </entry>
         <entry name="com4" type="String">
             <default></default>
         </entry>
         <entry name="app5" type="String">
-            <default>Application 5</default>
+            <default></default>
         </entry>
         <entry name="com5" type="String">
             <default></default>
         </entry>
         <entry name="app6" type="String">
-            <default>Application 6</default>
-        </entry>
-        <entry name="com6" type="String">
             <default></default>
+        </entry>
         <entry name="app7" type="String">
-            <default>Shutdown</default>
+            <default></default>
         </entry>
         <entry name="com7" type="String">
-            <default>systemctl poweroff</default>
+            <default></default>
         </entry>
     </group>
 </kcfg>

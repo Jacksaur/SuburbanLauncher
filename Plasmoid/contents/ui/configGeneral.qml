@@ -36,6 +36,11 @@ Kirigami.FormLayout {
         id: command1
     }
 
+    Item {
+            Kirigami.FormData.isSection: true
+
+    }
+
     QtControls.TextField{
         Kirigami.FormData.label: "Entry 2:"
         id: entry2
@@ -44,6 +49,11 @@ Kirigami.FormLayout {
     QtControls.TextField{
         Kirigami.FormData.label: "Command 2:"
         id: command2
+    }
+
+    Item {
+            Kirigami.FormData.isSection: true
+
     }
 
     QtControls.TextField{
@@ -55,6 +65,11 @@ Kirigami.FormLayout {
         id: command3
     }
 
+    Item {
+            Kirigami.FormData.isSection: true
+
+    }
+
     QtControls.TextField{
         Kirigami.FormData.label: "Entry 4:"
         id: entry4
@@ -63,6 +78,12 @@ Kirigami.FormLayout {
         Kirigami.FormData.label: "Command 4:"
         id: command4
     }
+
+    Item {
+            Kirigami.FormData.isSection: true
+
+    }
+
     QtControls.TextField{
         Kirigami.FormData.label: "Entry 5:"
         id: entry5
@@ -70,6 +91,11 @@ Kirigami.FormLayout {
     QtControls.TextField{
         Kirigami.FormData.label: "Command 5:"
         id: command5
+    }
+
+    Item {
+            Kirigami.FormData.isSection: true
+
     }
     QtControls.TextField{
         Kirigami.FormData.label: "Entry 6:"
@@ -79,12 +105,23 @@ Kirigami.FormLayout {
         Kirigami.FormData.label: "Command 6:"
         id: command6
     }
+
+    Item {
+            Kirigami.FormData.isSection: true
+
+    }
     QtControls.TextField{
         Kirigami.FormData.label: "Entry 7:"
         id: entry7
     }
+
     QtControls.TextField{
         Kirigami.FormData.label: "Command 7:"
         id: command7
+    }
+
+    Item {
+            Kirigami.FormData.isSection: true
+
     }
 }
